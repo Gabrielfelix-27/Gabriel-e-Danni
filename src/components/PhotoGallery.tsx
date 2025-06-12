@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, Heart, X } from 'lucide-react';
 
@@ -64,12 +63,12 @@ const PhotoGallery = () => {
         <div className="text-center mb-12">
           <div className="flex items-center justify-center gap-4 mb-6">
             <Heart className="text-romantic-rose animate-heartbeat" size={32} fill="currentColor" />
-            <h2 className="font-dancing text-4xl md:text-5xl text-romantic-coral">
+            <h2 className="font-dancing text-4xl md:text-5xl text-white">
               Nossas Memórias
             </h2>
             <Heart className="text-romantic-rose animate-heartbeat" size={32} fill="currentColor" />
           </div>
-          <p className="font-caveat text-xl text-romantic-rose opacity-80">
+          <p className="font-caveat text-xl text-white opacity-80">
             Momentos especiais que guardamos no coração
           </p>
         </div>

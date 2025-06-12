@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { Heart } from 'lucide-react';
 
@@ -53,12 +52,12 @@ const LoveTimer = () => {
         <div className="text-center mb-8 sm:mb-12">
           <div className="flex items-center justify-center gap-2 sm:gap-4 mb-4 sm:mb-6">
             <Heart className="text-romantic-rose animate-heartbeat" size={24} fill="currentColor" />
-            <h2 className="font-dancing text-3xl sm:text-4xl md:text-5xl text-romantic-coral">
+            <h2 className="font-dancing text-3xl sm:text-4xl md:text-5xl text-white">
               Tempo Juntos
             </h2>
             <Heart className="text-romantic-rose animate-heartbeat" size={24} fill="currentColor" />
           </div>
-          <p className="font-caveat text-lg sm:text-xl text-romantic-rose opacity-80">
+          <p className="font-caveat text-lg sm:text-xl text-white opacity-80">
             Desde 22 de Novembro de 2015
           </p>
         </div>
@@ -71,10 +70,10 @@ const LoveTimer = () => {
               style={{ animationDelay: `${index * 0.2}s` }}
             >
               <div className="text-center">
-                <div className="font-dancing text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-romantic-coral mb-1">
+                <div className="font-dancing text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-1">
                   {unit.value.toLocaleString()}
                 </div>
-                <div className="font-caveat text-xs sm:text-sm md:text-base lg:text-lg text-romantic-rose font-semibold">
+                <div className="font-caveat text-xs sm:text-sm md:text-base lg:text-lg text-white font-semibold">
                   {unit.label}
                 </div>
               </div>
@@ -83,7 +82,7 @@ const LoveTimer = () => {
         </div>
 
         <div className="text-center mt-8">
-          <p className="font-caveat text-2xl text-romantic-gold italic">
+          <p className="font-caveat text-2xl text-white italic">
             "E cada segundo que passa, meu amor por você só cresce..."
           </p>
         </div>

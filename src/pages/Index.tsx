@@ -1,4 +1,3 @@
-
 import React from 'react';
 import FloatingHearts from '../components/FloatingHearts';
 import FallingHearts from '../components/FallingHearts';
@@ -10,20 +9,20 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-900 via-rose-800 to-pink-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-[#B7C9A8] via-[#A3B18A] to-[#588157] relative overflow-hidden">
       {/* Floating hearts background */}
       <FloatingHearts />
       
       {/* Falling hearts animation on page load */}
       <FallingHearts />
       
-      {/* Decorative elements with deeper romantic tones */}
+      {/* Decorative elements com tons de sage */}
       <div className="fixed inset-0 opacity-20 pointer-events-none">
-        <div className="absolute top-20 left-10 w-40 h-40 bg-red-600 rounded-full blur-3xl"></div>
-        <div className="absolute top-40 right-20 w-32 h-32 bg-pink-600 rounded-full blur-2xl"></div>
-        <div className="absolute bottom-32 left-1/4 w-36 h-36 bg-rose-600 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-20 right-1/3 w-28 h-28 bg-red-500 rounded-full blur-2xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-pink-700 rounded-full blur-3xl"></div>
+        <div className="absolute top-20 left-10 w-40 h-40 bg-[#B7C9A8] rounded-full blur-3xl"></div>
+        <div className="absolute top-40 right-20 w-32 h-32 bg-[#A3B18A] rounded-full blur-2xl"></div>
+        <div className="absolute bottom-32 left-1/4 w-36 h-36 bg-[#DAD7CD] rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 right-1/3 w-28 h-28 bg-[#588157] rounded-full blur-2xl"></div>
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-48 h-48 bg-[#344E41] rounded-full blur-3xl"></div>
       </div>
       
       {/* Additional romantic overlay */}
