@@ -77,9 +77,9 @@ export default {
 				sm: 'calc(var(--radius) - 4px)'
 			},
 			fontFamily: {
-				'dancing': ['Dancing Script', 'cursive'],
-				'kaushan': ['Kaushan Script', 'cursive'],
-				'caveat': ['Caveat', 'cursive']
+				'dancing': ['Dancing Script', 'Brush Script MT', 'Lucida Handwriting', 'cursive', 'serif'],
+				'kaushan': ['Kaushan Script', 'Dancing Script', 'Brush Script MT', 'cursive', 'serif'],
+				'caveat': ['Caveat', 'Comic Sans MS', 'Marker Felt', 'cursive', 'sans-serif']
 			},
 			keyframes: {
 				'accordion-down': {
