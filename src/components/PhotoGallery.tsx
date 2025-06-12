@@ -10,37 +10,37 @@ const PhotoGallery = () => {
   const photos = [
     {
       id: 1,
-      src: "/src/Fotos/Inicio.jpeg",
+      src: "/fotos/Inicio.jpeg",
       caption: "Nosso início de namoro ❤️",
       date: "Novembro 2015"
     },
     {
       id: 2,
-      src: "/src/Fotos/Casamento.jpeg",
+      src: "/fotos/Casamento.jpeg",
       caption: "Nosso casamento 💒",
       date: "O dia mais feliz"
     },
     {
       id: 3,
-      src: "/src/Fotos/Lua de Mel.jpeg",
+      src: "/fotos/Lua de Mel.jpeg",
       caption: "Lua de mel romântica 🌙",
       date: "Momento inesquecível"
     },
     {
       id: 4,
-      src: "/src/Fotos/Nossa Casinha.jpeg",
+      src: "/fotos/Nossa Casinha.jpeg",
       caption: "Nossa casinha 🏠",
       date: "Nosso lar"
     },
     {
       id: 5,
-      src: "/src/Fotos/Monte Verde.jpeg",
+      src: "/fotos/Monte Verde.jpeg",
       caption: "Viagem a Monte Verde 🏔️",
       date: "Aventura juntos"
     },
     {
       id: 6,
-      src: "/src/Fotos/Natal e Doguinho.jpeg",
+      src: "/fotos/Natal e Doguinho.jpeg",
       caption: "Natal com o doguinho 🐕",
       date: "Família completa"
     }
